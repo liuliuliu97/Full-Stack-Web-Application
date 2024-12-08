@@ -1,0 +1,10 @@
+asgiref
+Django
+django-cors-headers  # to fix cross origin request issue
+djangorestframework  
+djangorestframework-simplejwt #  handle jwt authentication
+PyJWT
+pytz
+sqlparse
+psycopg2-binary   # postgresql database
+python-dotenv  # load environment variables
