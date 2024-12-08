@@ -32,3 +32,5 @@ django-admin startproject backend
 cd backend
 python manage.py startapp api
 ```
+5. Django setting
+import necessary libraries in backend-settings.py
