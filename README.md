@@ -1,6 +1,5 @@
 [Django & React Web App Tutorial - Authentication, Databases, Deployment & More...](https://www.youtube.com/watch?v=c-QsfbznSXI&ab_channel=TechWithTim)
 [code](https://github.com/techwithtim/Django-React-Full-Stack-App)
-[Video to gif](https://www.veed.io/edit/7a908f6f-583c-498c-8f47-28ad48017034/media)
 
 React  - frontend
 Django -backend

@@ -29,4 +29,6 @@ urlpatterns = [
     path('api/token/refresh/', TokenRefreshView.as_view(), name='refresh_token'),
     # include all the urls for the rest_framework
     path('api-auth', include('rest_framework.urls')),
+    # include all the urls for the api app
+    path('api/', include('api.urls')),
 ]
