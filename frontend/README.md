@@ -20,7 +20,9 @@ npm install axios react-router-dom jwt-decode
     - add files in src: constants.js, api.js
     - add environment variable file in frontend: .env
 6. constants.js, api.js. .env
-7. 
+7. write protected routes: components/ProtectedRoute.jsx
+
+
 run this project
 ```bash
   npm install
