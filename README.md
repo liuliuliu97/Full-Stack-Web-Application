@@ -1,5 +1,6 @@
 [Django & React Web App Tutorial - Authentication, Databases, Deployment & More...](https://www.youtube.com/watch?v=c-QsfbznSXI&ab_channel=TechWithTim)
 [code](https://github.com/techwithtim/Django-React-Full-Stack-App)
+[Video to gif](https://www.veed.io/edit/7a908f6f-583c-498c-8f47-28ad48017034/media)
 
 React  - frontend
 Django -backend
@@ -7,6 +8,8 @@ JWT tokens- authentication
 
 register, login, create & display note, 
 read, update,  delete data
+
+Django uses an ORM (object-relational mapping), which map the code Objects to the database. 
 
 # Backend
 API, store data

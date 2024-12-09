@@ -11,15 +11,18 @@ refresh token: to refresh the access token
 
 1. after set Django properly (settings.py)
 2. make the registration view
-    3.  serializers.py 
-    4. view.py to add views
-    5. urls.py: configure all different urls
-    6. make migration on database
+    1. serializers.py 
+    2. view.py to add views
+    3. urls.py: configure all different urls
+    4. make migration on database
     `python manage.py makemigrations`
-    7. apply the migrations
+    5. apply the migrations
     `python manage.py migrate`
-    8. run the application
+    6. run the application
     `python manage.py runserver`
-    9. open the url and check the function http://127.0.0.1:8000/
+    7. open the url and check the function http://127.0.0.1:8000/
         go to different routes by changing the url, e.g. http://127.0.0.1:8000/api/user.register
         ![create a user](./assets_backend/create_user.gif)
+
+8. create custome models: models.py 
+    make a serilizer for this model: serializers.py

@@ -1,5 +1,6 @@
 from django.contrib.auth.models import User
 from rest_framework import serializers
+from .models import Note
 
 class UserSerializer(serializers.ModelSerializer):
     class Meta:
@@ -15,3 +16,14 @@ class UserSerializer(serializers.ModelSerializer):
         return user
     
 
+# convert api model into json data
+class NoteSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Note
+        fields = ['id', 'title', 'content', 'created_at', 'author']
+        # readers can only read the author, not write
+        extra_kwargs = {'author':{'read_only':True}}
+        # # author is a foreign key, so we need to specify the depth
+        # # depth = 1 means that we want to include the author object in the response
+        # # depth = 2 means that we want to include the author object and all its fields in the response
+        # depth = 1
