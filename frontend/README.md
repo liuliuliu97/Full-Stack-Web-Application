@@ -14,7 +14,14 @@ Currently, two official plugins are available:
 cd frontend
 npm install axios react-router-dom jwt-decode 
 ```
-3. run this project
+3. delete css files: src/App.css, index.css
+4. organize frontend: App.jsx, main.jsx
+    - create directories in src: pages, styles, components
+    - add files in src: constants.js, api.js
+    - add environment variable file in frontend: .env
+6. constants.js, api.js. .env
+7. 
+run this project
 ```bash
   npm install
   npm run dev
