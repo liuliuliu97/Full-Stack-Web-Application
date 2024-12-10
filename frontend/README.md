@@ -33,4 +33,10 @@ npm install axios react-router-dom jwt-decode
 12. add form styles: styles/Form.css
 13. connect the login/register form: longin.jsx, register.jsx
 14. open the server (change the enviromenr virable with server-size address: .env), test the pages
-
+![register and login](./assets_frontend/register_login.gif)
+when users log out, the website cannot direct back to the home page
+15. build the home page
+    - get all notes; check the notes on Home page (no note if no content, HTTP 200 2)
+    - delete notes, create a new note
+    - form to create a new note and display all notes
+    ![Home Page](./assets_frontend/home_page.png)
