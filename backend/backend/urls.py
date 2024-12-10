@@ -26,9 +26,9 @@ urlpatterns = [
     # view to get a new access token
     path('api/token/', TokenObtainPairView.as_view(), name='get_token'),
     # view to get a new refresh token
-    path('api/token/refresh/', TokenRefreshView.as_view(), name='refresh_token'),
+    path('api/token/refresh/', TokenRefreshView.as_view(), name='refresh'),
     # include all the urls for the rest_framework
-    path('api-auth', include('rest_framework.urls')),
+    path('api-auth/', include('rest_framework.urls')),
     # include all the urls for the api app
     path('api/', include('api.urls')),
 ]

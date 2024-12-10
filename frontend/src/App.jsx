@@ -11,7 +11,7 @@ function Logout() {
   return <Navigate to="/login" />
 }
 
-function RegisterandLogout() {
+function RegisterAndLogout() {
   localStorage.clear()
   return <Register />
 }
@@ -21,12 +21,19 @@ function App() {
     <BrowserRouter>
       <Routes>
         {/* protected: you cannot access the home page without logging in (hava access token and it is valid) */}
-        <Route path="/" element={<ProtectedRoute> <Home /></ProtectedRoute> } />
-        <Route path="/logout" element={<Logout />} />
+        <Route
+          path="/"
+          element={
+            <ProtectedRoute>
+              <Home />
+            </ProtectedRoute>
+          }
+        />
         <Route path="/login" element={<Login />} />
-        <Route path="/register" element={<RegisterandLogout />} />
+        <Route path="/logout" element={<Logout />} />
+        <Route path="/register" element={<RegisterAndLogout />} />
         {/* anything else: go to 404 page */}
-        <Route path="*" element={<NotFound />} />
+        <Route path="*" element={<NotFound />}></Route>
       </Routes>
     </BrowserRouter>
   )
