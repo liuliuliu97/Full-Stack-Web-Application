@@ -42,3 +42,5 @@ when users log out, the website cannot direct back to the home page
     ![Home Page](./assets_frontend/home_page.png)
 16. build the note component: components\Note.jsx, add in Home.jsx
   - notes can be deleted
+17. add styles: Note.css, Home.css, LoadingIndicator.css
+![Note page](./assets_frontend/note_page.png)

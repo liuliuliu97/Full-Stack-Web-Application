@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import api from "../api";
 import Note from "../components/Note";
+import "../styles/Home.css";
 
 function Home() {
   //get all the notes that are requested
