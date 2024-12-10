@@ -21,10 +21,11 @@ npm install axios react-router-dom jwt-decode
     - add environment variable file in frontend: .env
 6. constants.js, api.js. .env
 7. write protected routes: components/ProtectedRoute.jsx
-
-
-run this project
+8. create pages: Home.jsx, Login, NotFound, Register
+9. write navigation in App.jsx
+10. run this project
 ```bash
   npm install
   npm run dev
 ```
+![Navigations and pages](./assets_frontend/Navigate_to_pages.gif)
