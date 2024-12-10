@@ -30,3 +30,7 @@ npm install axios react-router-dom jwt-decode
 ```
 ![Navigations and pages](./assets_frontend/Navigate_to_pages.gif)
 11. make a generic form for register and login: components/Form.jsx
+12. add form styles: styles/Form.css
+13. connect the login/register form: longin.jsx, register.jsx
+14. open the server (change the enviromenr virable with server-size address: .env), test the pages
+
