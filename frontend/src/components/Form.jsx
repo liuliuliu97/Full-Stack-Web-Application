@@ -2,6 +2,7 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import api from "../api";
 import { ACCESS_TOKEN, REFRESH_TOKEN } from "../constants";
+import "../styles/Form.css";
 
 //make a generic form for login and register
 // collect the user name and password, and submit it to the register route or login route
@@ -59,3 +60,5 @@ function Form({ route, method}){
         </form>
     );
 } 
+
+export default Form;
