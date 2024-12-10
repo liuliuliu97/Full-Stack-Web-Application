@@ -29,3 +29,4 @@ npm install axios react-router-dom jwt-decode
   npm run dev
 ```
 ![Navigations and pages](./assets_frontend/Navigate_to_pages.gif)
+11. make a generic form for register and login: components/Form.jsx
