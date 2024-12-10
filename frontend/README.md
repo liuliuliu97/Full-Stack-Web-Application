@@ -44,3 +44,6 @@ when users log out, the website cannot direct back to the home page
   - notes can be deleted
 17. add styles: Note.css, Home.css, LoadingIndicator.css
 ![Note page](./assets_frontend/note_page.png)
+18. add loading indicator
+  - new component: components/LoadingIndicator.jsx
+  ![Loading Indicator](./assets_frontend/loading_indicator.png)
