@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import api from "../api";
+import Note from "../components/Note";
 
 function Home() {
   //get all the notes that are requested
@@ -31,10 +32,10 @@ function Home() {
         } else {
           alert("Error in deleting the note");
         }
+        // get the notes again to show the updated list
+        getNotes();
       })
       .catch((error) => alert(error));
-    // get the notes again to show the updated list
-    getNotes();
   };
 
   //create a new note
@@ -48,8 +49,8 @@ function Home() {
         } else {
           alert("Error in creating the note");
         }
+        getNotes();
       }).catch((error) => alert(error));
-    getNotes();
   };
 
   return (
@@ -58,11 +59,7 @@ function Home() {
       <div>
         <h2>Notes</h2>
         {notes.map((note) => (
-          <div key={note.id}>
-            <h2>{note.title}</h2>
-            <p>{note.content}</p>
-            <button onClick={() => deleteNote(note.id)}>Delete</button>
-          </div>
+          <Note note={note} onDelete={deleteNote} key={note.id} />
         ))}
 
         {/* form to create a note */}

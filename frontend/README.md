@@ -40,3 +40,5 @@ when users log out, the website cannot direct back to the home page
     - delete notes, create a new note
     - form to create a new note and display all notes
     ![Home Page](./assets_frontend/home_page.png)
+16. build the note component: components\Note.jsx, add in Home.jsx
+  - notes can be deleted
