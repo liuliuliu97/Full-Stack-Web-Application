@@ -37,3 +37,6 @@ python manage.py startapp api
 ```
 5. Django setting
 import necessary libraries in backend-settings.py
+6. front-end
+7. depoly the database using [choreo](https://choreo.dev/)
+    - PostgreSQL

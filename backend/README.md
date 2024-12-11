@@ -32,3 +32,10 @@ refresh token: to refresh the access token
     - make a migration to database and migrate
     - run the application and test it
     ![Notes](./assets_backend/notes.gif)
+
+9. add choreo database 
+    - create environment variable file: .env and add values
+    - connect the datavbase to Django
+    - add database infomation: settings.py
+    - connect to the remote databse: `python manage.py migrate`
+    - run the server and check all functions
