@@ -39,3 +39,7 @@ refresh token: to refresh the access token
     - add database infomation: settings.py
     - connect to the remote databse: `python manage.py migrate`
     - run the server and check all functions
+10. deploy backend
+    - add .gitignore file
+    - create .choreo directory, endpoints.yaml
+    - add Procfile file: specify the command to start the project
