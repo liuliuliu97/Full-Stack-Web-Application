@@ -44,3 +44,5 @@ import necessary libraries in backend-settings.py
     - add file .gitignore
     - frontend/.gitignore
     - backend/.gitignore
+9. create a new project in choreo
+10. deploy backend, frontend and connect the frontend to the backend
